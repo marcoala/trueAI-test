@@ -7,3 +7,16 @@
        url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
        url('chrome-extension://__MSG_@@extension_id__/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+.sudgestion{
+    margin-bottom: 10px;
+}
+
+.glyphicon.is-spinning {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
