@@ -15,9 +15,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
-      "css": [],
+      "matches": ["https://*.slack.com/messages/*/"],
+      "css": [
+        "css/bootstrap.min.css",
+        "css/override.css"
+        ],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "web_accessible_resources": ["fonts/*"]
 }
