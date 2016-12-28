@@ -82,6 +82,8 @@ During a preliminary research for information about Chrome plugin that uses Reac
 
 See design folder.
 
+The solution proposed could be actually less functional than the one presented in the TrueAI homepage, but in a test situation I've focussed on showing my methodology rather than just use the best solution.
+
 ## 4) Build the first version of a working prototype.
 
 See code folder.
